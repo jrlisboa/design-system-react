@@ -75,7 +75,7 @@ import {
 ### Build
 
 O artefato de build é utilizado como porta de entrada para os projetos que
-utilizam o design-system-react como dependência.
+importam o design-system-react como dependência.
 
 Para gerar um novo artefato, basta executar:
 
