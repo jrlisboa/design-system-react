@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "npx parcel index.html",
-    "build": "webpack --mode production",
+    "build": "npx parcel build src/index.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --detectOpenHandles"
   },
   "dependencies": {
@@ -27,7 +27,7 @@
   "name": "design-system-react",
   "description": "Este projeto é a estrutura simplificada do que poderia se tornar uma biblioteca de componentes e tokens reutilizáveis.",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jrlisboa/design-system.git"
