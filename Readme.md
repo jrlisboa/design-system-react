@@ -70,6 +70,8 @@ import {
 * [Dialog](./src/components/dialog/Readme.md)
 * [GlobalStyle e Theme](./src/components/Readme.md)
 
+*Importante: Utilizar um ThemeProvider é essencial para o bom funcionamento dos componentes*
+
 ### Build
 
 O artefato de build é utilizado como porta de entrada para os projetos que
