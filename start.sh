@@ -43,7 +43,7 @@ example() {
     print_info "🤖 [Jr bot] Abrindo localhost..."
     open_link http://localhost:1234
 
-    npx parcel index.html
+    npx parcel ./src/example/index.html
 }
 
 tests() {

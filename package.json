@@ -23,5 +23,19 @@
     "parcel": "^2.8.0",
     "process": "^0.11.10",
     "react-test-renderer": "^18.2.0"
-  }
+  },
+  "name": "design-system-react",
+  "description": "Este projeto é a estrutura simplificada do que poderia se tornar uma biblioteca de componentes e tokens reutilizáveis.",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrlisboa/design-system.git"
+  },
+  "author": "Jr Lisboa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrlisboa/design-system/issues"
+  },
+  "homepage": "https://github.com/jrlisboa/design-system#readme"
 }
