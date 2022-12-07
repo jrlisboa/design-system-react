@@ -48,6 +48,39 @@ Rodar testes e verificar cobertura
   npm test -- --coverage
 ```
 
+### Como utilizar
+Inclua a biblioteca nas dependências do seu projeto:
+* Apontamento local: `npm install -S ./design-system-react` [(Mais detalhes)](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#local-paths).
+* Instalação via github: `npm i -S jrlisboa/design-system`.
+
+Importe os componentes necessários:
+
+~~~javascript
+import {
+  Dialog,
+  Theme,
+  GlobalStyle,
+} from 'design-system-react';
+~~~
+
+*Obs: Sempre verifique os PropTypes de cada componente.*
+
+#### Documentação dos componentes
+
+* [Dialog](./src/components/dialog/Readme.md)
+* [GlobalStyle e Theme](./src/components/Readme.md)
+
+### Build
+
+O artefato de build é utilizado como porta de entrada para os projetos que
+utilizam o design-system-react como dependência.
+
+Para gerar um novo artefato, basta executar:
+
+~~~bash
+npm run build
+~~~
+
 ### Sobre o projeto
 
 #### Estrutura de pastas
@@ -70,15 +103,16 @@ um dos componentes disponíveis.
 |   │   │   │
 |   │   ├── global.style.jsx   -> Exporta valores de estilo globais
 │   │   ├── theme.style.jsx   -> Exporta os tokens do projeto
-│   │   ├── index.jsx   -> Exporta todos os componentes
+|   │   │ 
+│   ├── example
+│   │   ├── index.js   -> Renderiza os componentes na página exemplo
+│   │   ├── index.style.jsx   -> Exporta os estilos da página exemplo
+│   │   ├── index.html    -> HTML da página exemplo
 |   │   │ 
 │   ├── helpers
 │   │   ├── dom_helper.jsx   -> Auxilia a manipulação de elementos do DOM
 |   │   │
-│   ├── index.js   -> Renderiza os componentes na página exemplo
-│   ├── index.style.jsx   -> Exporta os estilos da página exemplo
-|   │
-├── index.html    -> HTML da página exemplo
+│   ├── index.js   -> Exporta todos os componentes
 ~~~
 
 #### Build tool [Parcel]
