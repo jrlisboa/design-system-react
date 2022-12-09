@@ -124,7 +124,7 @@ rápida e suportando customizações nos pressets do babel.
 
 #### Test tool [Jest]
 
-Além do Jest, algumas outras ferramentas de teste foram utilizadas para garantir que a 
+Além do Jest, algumas outras ferramentas de teste foram utilizadas para garantir a 
 cobertura do componente em seus **side effects**, aparência e comportamentos.
 - @testing-library/react (Comparar atributos e simular interações)
 - jest-styled-components (Permite utilizar snapshots com styled components)
