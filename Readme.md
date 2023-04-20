@@ -1,5 +1,5 @@
 
-Design System [React]
+# Design System [React]
 
 Este projeto é a estrutura simplificada do que poderia se tornar uma biblioteca
 de componentes e tokens reutilizáveis.
